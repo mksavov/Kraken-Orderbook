@@ -1,0 +1,15 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      lettuce:
+        pool:
+          max-active: 20
+          max-idle: 10
+          min-idle: 2
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
