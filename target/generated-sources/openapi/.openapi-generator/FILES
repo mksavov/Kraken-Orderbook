@@ -1,9 +1,0 @@
-.openapi-generator-ignore
-README.md
-pom.xml
-src/main/java/com/kraken/api/ApiUtil.java
-src/main/java/com/kraken/api/OrderbookApi.java
-src/main/java/com/kraken/models/ErrorData.java
-src/main/java/com/kraken/models/ErrorResponse.java
-src/main/java/com/kraken/models/Order.java
-src/main/java/com/kraken/models/OrderBook.java
